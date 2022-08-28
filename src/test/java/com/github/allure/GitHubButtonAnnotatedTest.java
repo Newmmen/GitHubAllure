@@ -14,7 +14,6 @@ public class GitHubButtonAnnotatedTest {
     public void annotatedIssueButtonTest() {
         SelenideLogger.addListener("allure", new AllureSelenide());
 
-
         step.openMainPage();
         step.searchRepoLink(REPOSITORY);
         step.clickRepoLink();

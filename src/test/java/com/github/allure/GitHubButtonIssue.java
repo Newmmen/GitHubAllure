@@ -1,7 +1,6 @@
 package com.github.allure;
 
 import com.codeborne.selenide.Condition;
-import com.codeborne.selenide.logevents.SelenideLog;
 import com.codeborne.selenide.logevents.SelenideLogger;
 import io.qameta.allure.selenide.AllureSelenide;
 import org.junit.jupiter.api.Test;
